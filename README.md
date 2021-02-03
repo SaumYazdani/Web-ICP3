@@ -1,1 +1,1 @@
-In this ICP I created a website that incoorporates CSS, HTMl, and JS to make a functioning rock paper scissors game with a UI. Additionally, we were asked to edit a webpage to look like a template provided using CSS, HTMl, and Bootstrap.
+In this ICP I created a website that incorporates CSS, HTMl, and JS to make a functioning rock paper scissors game with a UI. Additionally, we were asked to edit a webpage to look like a template provided using CSS, HTMl, and Bootstrap.
