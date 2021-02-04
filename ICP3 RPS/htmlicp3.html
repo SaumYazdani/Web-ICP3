@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Including css style sheet -->
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+<!-- making a header -->
+<div class ="top">
+<h1 >Rock Paper Scissors</h1>
+</div>
+<!-- Setting images to correspond to button puches. Each push calls the respective function and the game uses backend logic to run -->
+<div class ="options">
+    <button id="rock" onclick="rock(computerchoice)"> <img src="https://www.pngitem.com/pimgs/m/372-3723950_unikitty-character-rock-guy-cartoon-rock-no-background.png" class = "options" width="200" height="150"></button>
+</div>
+<div class = "options">
+    <button id ="paper" onclick="paper(computerchoice)"> <img src="https://images.all-free-download.com/images/graphiclarge/blank_white_paper_cartoon_clip_art_12090.jpg" width="200" height="150"></button>
+</div>
+<div class = "options">
+    <button id = "scissors" onclick="scissors(computerchoice)"> <img src="https://www.seekpng.com/png/detail/361-3618497_scissors-clipart-19-scissors-image-graphic-huge-freebie.png" width="200" height="150"></button>
+</div>
+<div class = "bottom">
+<h4>Please choose one of the options above!</h4>
+</div>
+<!-- including the js file -->
+<script src="icp3.js"></script>
+</body>
+</html>

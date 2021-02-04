@@ -1,0 +1,20 @@
+
+/*apply padding and centering*/
+.options{
+    padding: 10px;
+    text-align: center;
+    border: 0px;
+    background-size: 100%;
+}
+/*Centering, padding and changing colo*/
+.top{
+    text-align: center;
+   color: #ff0051;
+    padding-top: 100px;
+}
+/*Centering and changing colo*/
+.bottom
+{
+    text-align: center;
+    color: #ff0051;
+}
