@@ -1,0 +1,26 @@
+
+/* trying to match line break to template's */
+hr {
+    display: block;
+    height: 30px;
+    border: 0;
+    border-top: 5px solid #BCBBBB;
+    margin: 1em 0;
+    padding: 2px;
+}
+/* Moving the name and position slightly to the right to match the template, also editing font style and color */
+.name-pos{
+    font-family: "Orbitron", sans-serif;
+    color: #747704;
+    float:right;
+}
+/* changing 'featured' font style and color' */
+.featured{
+    font-family: "Orbitron", sans-serif;
+    color: #BCBBBB;
+}
+/* changing all font styles and color for each project label */
+.col-md-3{
+    font-family: "Orbitron", sans-serif;
+    color: #747704;
+}

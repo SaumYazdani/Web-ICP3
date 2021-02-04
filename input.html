@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<!--
+TODO:
+1.Enter your name in h1 and designation in h3 *
+2.Replace all the placeholder images with suitable images of the same size reflecting you and your projects.Feel free to use the sample images provided*
+3.Replace the content of headings App1,App2,App3,App4 with suitable headings of your projects & provide their github links in the corresponding links*
+4.Make all the elements in the page responsive & align its content as shown in the output sample with the aforementioned using bootstrap*
+
+-->
+
+<html lang="en">
+<head>
+    <!-- Linking css and bootstrap -->
+    <link rel ="stylesheet" href="rwdcss.css">
+    <title>RWD Task</title>
+    <meta content="text/html; charset=windows-1252" http-equiv="Content-Type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Setting profile picture and name/position to take up 6 spaces each, changing default picture to custom picture -->
+<div>
+    <div class = "row">
+        <div class = "col-md-6">
+        <img alt="profile" src="https://purposebuiltsoftware.com/wp-content/uploads/2016/12/web-dev-student-illustration-Feature_1290x688_MS1.jpg" width ="100" height = "100">
+    </div>
+        <div class = "col-md-6">
+            <div class = "name-pos">
+        <h1>SAUM YAZDANI</h1>
+        <h3>SOFTWARE ENGINEER</h3>
+            </div>
+    </div>
+    </div>
+</div>
+</div>
+<!-- setting page break line -->
+<hr/>
+<!-- setting column to 12 since featured work image is only item in column, changing default picture to custom -->
+<div class = "row">
+    <div class ="col-md-12">
+    <img alt="Featured" src="https://www.freecodecamp.org/news/content/images/2020/01/html-examples.jpeg" width="1865" height = "350">
+</div>
+</div>
+<!-- class allows word 'Featured' to be edited in css for color/font style -->
+<div class = "featured">
+    <h2>Featured Work </h2>
+</div>
+<!-- setting class to size 3 column since there are 4 images/hyperlinks to add. Each image has a hyperlink to my github projects -->
+<div class = "row">
+    <div class = "col-md-3"><img alt="Deer-Project" src="https://pbs.twimg.com/media/EdSvNY6XgAER2w_?format=jpg&name=900x900" width ="400" height ="300">
+        <h3>DEER WEBPAGE</h3>
+        <p><a href="https://github.com/SaumYazdani/Web-ICP2/blob/main/index.html">Link to project</a></p>
+    </div>
+    <div class = "col-md-3">
+        <img alt="CalculateML" src="https://play-lh.googleusercontent.com/fuLqD-qZyOwHNxuCZ3_O5N4B8Bu0Jk3q29GcysEhw4XGlIfgEocJqvaIr8BlYLoNloo" width ="400" height ="300">
+        <h3>NUMBER OPERATIONS</h3>
+        <p><a href="https://github.com/SaumYazdani/PythonML-ICP1/blob/main/question2pt2.py">Link to project</a></p>
+    </div>
+    <div class = "col-md-3">
+        <img alt="reverse-list" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQCzMloU0EpkCfasL6-FYxXkPpud9mlFKWzQ&usqp=CAU" width ="400" height ="300">
+        <h3>LIST REVERSAL</h3>
+        <p><a href="https://github.com/SaumYazdani/PythonML-ICP1/blob/main/question2.py">Link to project</a></p>
+    </div>
+    <div class = "col-md-3">
+        <img alt="square-grid" src="https://img.pngio.com/square-grid-png-png-collections-at-sccprecat-square-grid-png-800_800.png" width ="400" height ="300">
+        <h3>SQUARE GRID</h3>
+        <p><a href="https://github.com/SaumYazdani/Web-ICP2/blob/main/cubehtml.html">Link to project</a></p>
+    </div>
+</div>
+
+
+</body>
+</html>
